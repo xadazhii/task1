@@ -11,7 +11,7 @@ public class Employer implements Person{
 
     @Override
     public String getInfo(){
-        return "Name: " + name + " Surname: " + surname + " Pension age: " + (65 - age);
+        return "Name: " + name + " Surname: " + surname + " To retirement age left: " + (65 - age);
     }
 
 }
